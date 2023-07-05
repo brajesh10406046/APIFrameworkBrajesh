@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="4.356" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\braje\API Training Projects\APIFramework\target\test-classes;C:\Users\braje\API Training Projects\APIFramework\target\classes;C:\Users\braje\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\braje\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\braje\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\braje\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\braje\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\braje\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\braje\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\braje\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\braje\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\braje\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\braje\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\braje\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\braje\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\braje\AppData\Local\Temp\surefire13902078424725693896\surefirebooter-20230705134259286_3.jar C:\Users\braje\AppData\Local\Temp\surefire13902078424725693896 2023-07-05T13-42-59_072-jvmRun1 surefire-20230705134259286_1tmp surefire_0-20230705134259286_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\braje\API Training Projects\APIFramework\target\test-classes;C:\Users\braje\API Training Projects\APIFramework\target\classes;C:\Users\braje\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\braje\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-java\7.12.1\cucumber-java-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-core\7.12.1\cucumber-core-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-gherkin\7.12.1\cucumber-gherkin-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.1\cucumber-gherkin-messages-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\braje\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\braje\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\braje\.m2\repository\io\cucumber\datatable\7.12.1\datatable-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-plugin\7.12.1\cucumber-plugin-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\docstring\7.12.1\docstring-7.12.1.jar;C:\Users\braje\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\braje\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\braje\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\braje\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\braje\.m2\repository\io\cucumber\cucumber-junit\7.12.1\cucumber-junit-7.12.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\braje\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\braje\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\braje\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\braje\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\braje\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\braje\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\braje\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\braje\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\braje\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\braje"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\braje\API Training Projects\APIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\braje\AppData\Local\Temp\surefire13902078424725693896\surefirebooter-20230705134259286_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="braje"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\braje\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @getPlaceAPI"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\braje\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\braje\API Training Projects\APIFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Maven\apache-maven-3.9.3\bin;C:\Users\braje\AppData\Local\Microsoft\WindowsApps;C:\Users\braje\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify if place is successfully added in teh API" classname="Validation place API&apos;s" time="3.167">
+    <error message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at resources.Util.getJsonKey(Util.java:59)
+	at stepDefinitions.stepDefinitions.verify_that_place_id_created_maps_to_using(stepDefinitions.java:81)
+	at ✽.Verify that place id created maps to "Neha" using "getPlaceAPI"(file:///C:/Users/braje/API%20Training%20Projects/APIFramework/src/test/java/features/placeValidation.feature:9)
+Caused by: java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:80)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at resources.Util.getJsonKey(Util.java:59)
+	at stepDefinitions.stepDefinitions.verify_that_place_id_created_maps_to_using(stepDefinitions.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[Name from AddPlace stepdef is - Neha
+resource and httpMethod got is - getPlaceAPIpost
+Enum Values is - maps/api/place/get/json
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&Content-Type=application%2Fjson
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				Content-Type=application/json
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Neha",
+    "phone_number": 9999,
+    "address": "Brajesh Address, Greater Noida",
+    "website": "findyourfasion.com",
+    "language": "Bengali",
+    "location": {
+        "lang": 33.427362,
+        "lat": -38.383494
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[Jul 05, 2023 1:42:59 PM io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
+WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify that delete place API is working" classname="Validation place API&apos;s" time="0.446">
+    <error message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at resources.Util.getJsonKey(Util.java:59)
+	at stepDefinitions.stepDefinitions.verify_that_place_id_created_maps_to_using(stepDefinitions.java:81)
+	at stepDefinitions.Hooks.beforeScenario(Hooks.java:17)
+Caused by: java.lang.IllegalArgumentException: The JSON input text should neither be null nor empty.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:80)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at resources.Util.getJsonKey(Util.java:59)
+	at stepDefinitions.stepDefinitions.verify_that_place_id_created_maps_to_using(stepDefinitions.java:81)
+	at stepDefinitions.Hooks.beforeScenario(Hooks.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[Name from AddPlace stepdef is - Rajesh
+resource and httpMethod got is - addPlaceAPIPOST
+Enum Values is - maps/api/place/add/json
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123&Content-Type=application%2Fjson
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				Content-Type=application/json
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Rajesh",
+    "phone_number": 9999,
+    "address": "Brajesh Address, Greater Noida",
+    "website": "Zudiac.com",
+    "language": "Spanish",
+    "location": {
+        "lang": 33.427362,
+        "lat": -38.383494
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
